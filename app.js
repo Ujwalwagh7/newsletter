@@ -50,7 +50,7 @@ res.sendFile(__dirname+"/failure.html");
         })
 
     })
-   // request.write(jsonData);
+    request.write(jsonData);
     request.end(); 
 
 
